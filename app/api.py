@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import template, tfa
+from app.routers import template
 from app.tag import SubTags, Tags
 
 app = FastAPI(
@@ -32,7 +32,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(tfa.router)
+app.include_router(template.router)
 #
 #
 #

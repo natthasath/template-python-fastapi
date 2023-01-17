@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "demo-tfa-api"
+name = "template-python-fastapi"
 version = "0.1.0"
 description = ""
 authors = ["Natthasath Saksupanara <natthasath.sak@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
-packages = [{include = "demo_tfa_api"}]
+packages = [{include = "template_python_fastapi"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -14,11 +14,6 @@ pydantic = "^1.10.2"
 uvicorn = "^0.20.0"
 python-decouple = "^3.6"
 python-multipart = "^0.0.5"
-pyzbar = "^0.1.9"
-qrcode = "^7.3.1"
-pyotp = "^2.8.0"
-pillow = "^9.4.0"
-
 
 [build-system]
 requires = ["poetry-core"]
