@@ -1,6 +1,6 @@
-# 🎉 Template Python FastAPI
+# 🎉 Demo TFA API
 
-FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. It has a simple and easy to use API, is lightweight, and includes features like asynchronous support, dependency injection, and more.
+TFA (Two-Factor Authentication) is a security measure that requires users to provide two forms of identification in order to access an account or system. This can include a password and a fingerprint, or a password and a text message code. It adds an extra layer of security to protect against unauthorized access.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
