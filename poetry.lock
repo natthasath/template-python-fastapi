@@ -148,6 +148,18 @@ dotenv = ["python-dotenv (>=0.10.4)"]
 email = ["email-validator (>=1.0.3)"]
 
 [[package]]
+name = "pyflakes"
+version = "3.0.1"
+description = "passive checker of Python programs"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "pyflakes-3.0.1-py2.py3-none-any.whl", hash = "sha256:ec55bf7fe21fff7f1ad2f7da62363d749e2a470500eab1b555334b67aa1ef8cf"},
+    {file = "pyflakes-3.0.1.tar.gz", hash = "sha256:ec8b276a6b60bd80defed25add7e439881c19e64850afd9b346283d4165fd0fd"},
+]
+
+[[package]]
 name = "python-decouple"
 version = "3.7"
 description = "Strict separation of settings from code."
@@ -250,4 +262,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "aa27cdc3a0a4da12eb76704262bc2859fd566493bab1fb81c093f0fad1554fdb"
+content-hash = "bd7b7e0b41eb8f97874801b8e286c8963eb460849089fa838d3f64373cb08678"
